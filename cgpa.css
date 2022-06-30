@@ -1,0 +1,143 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+   background-color: whitesmoke;
+   font-size: 1.1rem;
+}
+/* #e9ecef */
+.container{
+   margin: 20px auto;
+   padding: 1.5rem;
+   width: 80vw;
+   background-color:  #e9ecef;
+   border-radius: 1rem;
+   box-shadow: .5rem .3rem 0.5rem gray; 
+   display: flex;
+   flex-direction: column;
+   animation:anim 5s  1 linear;
+   
+
+}
+.header{
+   margin: 2rem auto;
+   text-align: center;
+   padding: 1rem;
+
+}
+
+.main{
+   width: 80%;
+   margin: 0 auto;
+   padding:1rem;
+   border-radius: .5rem;
+   box-shadow: .1rem .1rem 0.5rem gray;
+   /* display: none; */
+   
+
+   
+}
+caption{
+   text-align: center;
+   padding: .5rem;
+   margin-bottom: .5rem;
+   
+   
+}
+/* #a9b7c1 */
+table{  
+   padding: .5rem;
+   text-align: center;
+   background-color:#91a3b0  ;
+   margin: .3rem auto;
+   border-radius: 1rem;
+   box-shadow: .2rem .2rem .5rem #6c757d;
+   margin-bottom: 0.3rem;
+   
+
+}
+input{
+   margin: .5rem;
+   width: 33%;
+
+}
+button{
+   border: 0 ;
+   border-radius: 0.4rem;
+   display: block;
+   padding: .3rem;
+   margin: 0 auto;
+   background-color: #e9ecef;
+   color: black;
+   box-shadow: .2rem .4rem 1rem  #6c757d;
+   margin-bottom: 0.5rem;
+   margin-top: 0.7rem;
+}
+
+.displayer{
+   width: 40vw;
+   height: 40vh;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: .8rem .6rem 0.5rem gray; 
+   border-radius: .5rem;
+   animation:anim 5s  1 linear;
+   font-style: italic;
+   font-weight: 800;
+   font-size: larger;
+   padding: 1rem;
+   z-index: 1rem;
+   color: white;
+   text-shadow: 0.2rem 0.2rem 0.2rem black , 0.4rem 0.05rem 0.4rem gray;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #214469;
+   
+
+
+}
+.hider{
+   display: none;
+}
+ @keyframes anim{
+   0%{
+      width:0;
+   }
+   25%{
+      width:20vw;
+   }
+   50%{
+      width:40vw;
+   }
+   75%{
+      width:60vw;
+   }
+   100%{
+       width: 80vw;
+   }
+} 
+/* @keyframes animm{
+   0%{
+      opacity: 0;
+   }
+  25%{
+     opacity:0.25;
+   }
+   50%{
+      opacity: 0;
+   }
+   75%{
+      opacity: 0.5;
+   }
+   100%{
+      
+      opacity: 1;
+      display: block;
+   }
+}  */
+      
