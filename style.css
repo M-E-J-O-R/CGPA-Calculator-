@@ -6,7 +6,7 @@ body{
    background-color: whitesmoke;
    font-size: 1.1rem;
 }
-/* #e9ecef */
+
 .container{
    margin: 20px auto;
    padding: 1.5rem;
@@ -45,7 +45,7 @@ caption{
    
    
 }
-/* #a9b7c1 */
+
 table{  
    padding: .5rem;
    text-align: center;
@@ -60,6 +60,10 @@ table{
 input{
    margin: .5rem;
    width: 33%;
+   text-align:center;
+   background-color:white;
+   outline:none;
+   border-radius:0.5px;
 
 }
 button{
