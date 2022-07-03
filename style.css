@@ -63,7 +63,7 @@ input{
    text-align:center;
    background-color:white;
    outline:none;
-   border-radius:0.5px;
+   border:0 solid;
 
 }
 button{
