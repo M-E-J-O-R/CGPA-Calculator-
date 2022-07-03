@@ -67,6 +67,10 @@ input{
    border-radius:0.4px;
 
 }
+select{
+    outline:none;
+    background-color:white;
+}
 button{
    border: 0 ;
    border-radius: 0.4rem;
