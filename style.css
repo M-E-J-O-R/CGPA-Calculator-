@@ -64,6 +64,7 @@ input{
    background-color:white;
    outline:none;
    border:0 solid;
+   border-radius:0.4px;
 
 }
 button{
