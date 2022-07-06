@@ -119,38 +119,11 @@ function gradeTotal(){
    container.classList.toggle('hider')
    a = setTimeout(()=>{
       container.innerText = `
-    Your Cummulative Geometric Point Average is ${cgpa.toFixed(2)}`
+    Your Cummulative Grade Point Average is ${cgpa.toFixed(2)}`
    },4000)
    
 
 }
-
-/*
-document.querySelector('.main').classList.add('hider')
-   var container = document.querySelector('#displayer')
-   
-    container.innerText = `
-    <p>Your Geometric Point Average is ${cgpa.toFixed(2)}`
-    container.classList.toggle('hider')
-    */
-/*
-resultDisplayer.addEventListener("click", ee)
-function ee(){
-   document.querySelector('.container').classList.add('hider')
-   console.log(cgpa)
-
-}
-*/
-//    var displayer = setTimeout(()=>{
-//       // 
-//       var container = document.querySelector('.container')
-//       container.innerHTML = `
-//    <p>Your Geometric Point Average is ${cgpa.toFixed(2)}
-
-// `
-   
-// },4000)
-   
 
 
 
