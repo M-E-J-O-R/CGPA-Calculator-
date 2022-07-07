@@ -3,7 +3,7 @@
    padding: 0;
 }
 body{
-   background-color:#222831 ;
+   background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
    font-size: 1.1rem;
 }
 
@@ -105,7 +105,7 @@ button{
    color: white;
    text-shadow: 0.2rem 0.2rem 0.2rem black , 0.4rem 0.05rem 0.4rem gray;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   background-color: #214469;
+   background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
    
 
 
@@ -130,23 +130,3 @@ button{
        width: 80vw;
    }
 } 
-/* @keyframes animm{
-   0%{
-      opacity: 0;
-   }
-  25%{
-     opacity:0.25;
-   }
-   50%{
-      opacity: 0;
-   }
-   75%{
-      opacity: 0.5;
-   }
-   100%{
-      
-      opacity: 1;
-      display: block;
-   }
-}  */
-      
