@@ -6,7 +6,7 @@ function adds(){
    no = document.querySelectorAll('tr').length
    add = document.querySelector('#add')
    table = document.querySelector('table')
-   table.innerHTML += ` <tr>
+   newChild = ` <tr>
                   <td>${no}</td>
                   <td><input required class='unit' min="1" type="number"></td>
                    <td>
@@ -20,6 +20,7 @@ function adds(){
                      </select>
                   </td>
                </tr>`
+   table.insertAdjacentHTML('beforeend',newChild)
 }
 
 
