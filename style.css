@@ -100,7 +100,7 @@ button{
    justify-content: center;
    box-shadow: .8rem .6rem 0.5rem gray; 
    border-radius: .5rem;
-   animation:anim 5s  1 linear;
+   animation:anim 3s  1 linear;
    font-style: italic;
    font-weight: 800;
    font-size: larger;
