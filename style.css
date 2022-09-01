@@ -20,7 +20,7 @@ body{
    box-shadow: .5rem .3rem 0.5rem gray; 
    display: flex;
    flex-direction: column;
-   animation:anim 5s  1 linear;
+   animation:anim 3s  1 linear;
    
 
 }
