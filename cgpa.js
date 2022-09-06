@@ -120,7 +120,7 @@ function gradeTotal(){
    container.classList.toggle('hider')
    a = setTimeout(()=>{
       container.innerText = `
-    Your Cummulative Grade Point Average is ${cgpa.toFixed(2)}`
+    Your Grade Point Average is ${cgpa.toFixed(2)}`
    },3000)
    
 
